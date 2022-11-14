@@ -1,31 +1,27 @@
 [
   {
-    "products": [
-      {
-        "name": "name",
-        "description": "descripción",
-        "code": "código",
-        "pic": "https://placeimg.com/640/480/any",
-        "price": 111,
-        "stock": 8,
-        "id": 7,
-        "timestamp": 1660112504102
-      }
-    ],
     "id": 1,
-    "timestamp": 1660112178293
-  },
-  {
+    "timestamp": 1668388351792,
     "products": [
       {
         "name": "name",
         "description": "descripción",
         "code": "código",
         "pic": "https://placeimg.com/640/480/any",
-        "price": 111,
-        "stock": 14,
-        "id": 6,
-        "timestamp": 1660112476859
+        "price": 222,
+        "stock": 80,
+        "id": 2,
+        "timestamp": 1668388468135
+      },
+      {
+        "name": "name",
+        "description": "descripción",
+        "code": "código",
+        "pic": "https://placeimg.com/640/480/any",
+        "price": 333,
+        "stock": 90,
+        "id": 3,
+        "timestamp": 1668388485843
       },
       {
         "name": "name",
@@ -33,12 +29,46 @@
         "code": "código",
         "pic": "https://placeimg.com/640/480/any",
         "price": 111,
-        "stock": 8,
-        "id": 7,
-        "timestamp": 1660112504102
+        "stock": 70,
+        "id": 1,
+        "timestamp": 1668388432362
       }
-    ],
+    ]
+  },
+  {
     "id": 2,
-    "timestamp": 1660112185249
+    "timestamp": 1668388545118,
+    "products": [
+      {
+        "name": "name",
+        "description": "descripción",
+        "code": "código",
+        "pic": "https://placeimg.com/640/480/any",
+        "price": 111,
+        "stock": 70,
+        "id": 1,
+        "timestamp": 1668388432362
+      },
+      {
+        "name": "name",
+        "description": "descripción",
+        "code": "código",
+        "pic": "https://placeimg.com/640/480/any",
+        "price": 222,
+        "stock": 80,
+        "id": 2,
+        "timestamp": 1668388468135
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "timestamp": 1668389095889,
+    "products": []
+  },
+  {
+    "id": 4,
+    "timestamp": 1668390310996,
+    "products": []
   }
 ]

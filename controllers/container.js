@@ -106,4 +106,19 @@ export default class Container {
             console.log(error);
         }
     }
+
+    //Guarda un carrito
+    async saveCart(obj) {
+        try {
+            obj.id = await this.generateId();
+            obj.timestamp = Date.now();
+            obj.products = []           
+            this.objects.push(obj);
+            this.writeData();
+            console.log(obj.id);
+            return obj.id;
+        } catch (err) {
+            console.log(err);
+        }
+    }
 }

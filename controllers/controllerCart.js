@@ -6,8 +6,8 @@ const carts = new Container('./data/carts.json');
 //Add a cart
 const addCart = (req, res) => {
 	const products = req.body
-	if (!products) return carts.save([]);	
-	carts.save(products);	
+	if (!products) return carts.saveCart([]);
+	carts.saveCart(products);	
 	res.json({ message: 'Carrito agregado' });
 }
 
